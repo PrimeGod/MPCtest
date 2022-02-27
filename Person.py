@@ -6,9 +6,9 @@ By Philippe Langevin
 class Person(object):
     age = -1   
 
-    def __init__(self, initialAge):
+    def __init__(self, initial_age):
         if self.age >= 0 and type(self.age) == int:
-            self.age = initialAge
+            self.age = initial_age
         else:
             print("The input parameter 'age' of the constructor" +
             "isn't valid")
