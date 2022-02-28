@@ -4,10 +4,11 @@ By Philippe Langevin
 '''
 
 class Person(object):
-    age = -1   
-
+    age = -1
+    
     def __init__(self, initial_age):
-        if self.age >= 0 and type(self.age) == int:
+        if initial_age >= 0 and type(initial_age) == int:
+            print(initial_age)
             self.age = initial_age
         else:
             print("The input parameter 'age' of the constructor" +
@@ -23,3 +24,4 @@ class Person(object):
 
     def year_passes(self):
         self.age += 1
+    
