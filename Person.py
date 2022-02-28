@@ -3,7 +3,7 @@
 
 This module demonstrates a simple implementation of a Person class.
 
-Based upon the rules cites in the test email
+Based upon the rules cited in the test email
 
 By Philippe Langevin
 
@@ -11,7 +11,7 @@ By Philippe Langevin
 
 
 class Person(object):
-    """The person class has an init method taking the initial age
+    """The Person class has an init method taking the initial age
     as attribute for creating a new Person as an object.
     This class allows the user to 'age' the Person by 1 year object with its
     method year_passes().
