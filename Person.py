@@ -5,6 +5,8 @@ This module demonstrates a simple implementation of a Person class.
 
 Based upon the rules cites in the test email
 
+By Philippe Langevin
+
 """
 
 
